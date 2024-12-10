@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #FFD700;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    border-bottom: 5px solid #C00000; /* Red border */
+}
+.slogan {
+    font-size: 1.2em;
+    color: #C00000;
+    text-align: center;
+    margin: 20px 0;
+    font-style: italic;
+}
+.search-container {
+    margin: 20px auto;
+    text-align: center;
+}
+.search-bar {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.hospital-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 2px solid #FFD700;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.hospital-list li {
+    padding: 15px;
+    border-bottom: 1px solid #000;
+    transition: background-color 0.3s;
+}
+.hospital-list li:hover {
+    background-color: #FFEB3B; /* Light yellow on hover */
+}
+.hospital-details {
+    font-size: 0.9em;
+    color: #555;
+}
+.hospital-list li:last-child {
+    border-bottom: none;
+}
+footer {
+    background-color: #C00000; /* Red footer */
+    color: #FFD700;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.2em;
+}
